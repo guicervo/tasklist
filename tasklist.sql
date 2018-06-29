@@ -39,21 +39,6 @@ CREATE TABLE `task` (
   `deleted_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Fazendo dump de dados para tabela `task`
---
-
-INSERT INTO `task` (`id`, `title`, `description`, `is_completed`, `is_deleted`, `created_at`, `updated_at`, `deleted_at`) VALUES
-(1, 'sdfg', 'sdfg', 'N', 'N', '2018-06-29 00:04:21', NULL, NULL),
-(2, 'teste', 'teste', 'N', 'N', '2018-06-29 00:05:33', NULL, NULL),
-(3, 'teste2', 'tetetert', 'N', 'N', '2018-06-29 00:06:46', NULL, NULL),
-(4, 'dfg', 'dfg', 'N', 'N', '2018-06-29 00:07:55', NULL, NULL),
-(5, 'teste', 'teste', 'N', 'N', '2018-06-29 00:09:00', NULL, NULL),
-(6, 'teste', 'teste', 'N', 'N', '2018-06-29 00:09:49', NULL, NULL),
-(7, 'cvbcvb', 'cvbcvb', 'N', 'N', '2018-06-29 00:10:01', NULL, NULL),
-(8, 'teste', 'teste', 'N', 'N', '2018-06-29 00:15:53', NULL, NULL),
-(9, 'cvb', 'cbvcbv', 'N', 'N', '2018-06-29 00:16:04', NULL, NULL),
-(10, 'guio', 'guio\n', 'N', 'Y', '2018-06-29 00:41:45', NULL, '2018-06-29 01:09:41');
 
 --
 -- Índices de tabelas apagadas
